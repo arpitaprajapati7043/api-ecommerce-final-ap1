@@ -4,7 +4,7 @@ const cors = require('cors');
 const apiData = require('./db.json');
 
 app.use(cors({
-    origin: 'http://localhost:3000', // Update this with your React app's URL
+    origin: 'http://localhost:5173', // Update this with your React app's URL
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
   }));
 const PORT = process.env.PORT || 8383;
